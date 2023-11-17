@@ -11,14 +11,27 @@
 		C7C2605B2B02919E00D97B48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C2605A2B02919E00D97B48 /* ContentView.swift */; };
 		C7C2605D2B02919F00D97B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C2605C2B02919F00D97B48 /* Assets.xcassets */; };
 		C7C260602B02919F00D97B48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C2605F2B02919F00D97B48 /* Preview Assets.xcassets */; };
+		C7C260682B02925000D97B48 /* Lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C260672B02925000D97B48 /* Lazy.swift */; };
+		C7C2606A2B02925A00D97B48 /* CodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C260692B02925A00D97B48 /* CodeBlock.swift */; };
+		C7C2606C2B02926300D97B48 /* Remember.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C2606B2B02926300D97B48 /* Remember.swift */; };
+		C7C2606E2B02926D00D97B48 /* StateFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C2606D2B02926D00D97B48 /* StateFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7A2C2FE2B07F6150039CDBD /* lazy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = lazy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7C260552B02919E00D97B48 /* swiftui_sugar_and_flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_sugar_and_flow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C260582B02919E00D97B48 /* swiftui_sugar_and_flowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_sugar_and_flowApp.swift; sourceTree = "<group>"; };
 		C7C2605A2B02919E00D97B48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7C2605C2B02919F00D97B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7C2605F2B02919F00D97B48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7C260672B02925000D97B48 /* Lazy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lazy.swift; sourceTree = "<group>"; };
+		C7C260692B02925A00D97B48 /* CodeBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeBlock.swift; sourceTree = "<group>"; };
+		C7C2606B2B02926300D97B48 /* Remember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remember.swift; sourceTree = "<group>"; };
+		C7C2606D2B02926D00D97B48 /* StateFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateFlow.swift; sourceTree = "<group>"; };
+		C7EE84C12B02BD500022C31D /* remember.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = remember.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7EE84C22B02BF160022C31D /* codeblock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = codeblock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7EE84C32B02BFC00022C31D /* stateflow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = stateflow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7EE84C42B02C1BE0022C31D /* stateobject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = stateobject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +64,18 @@
 		C7C260572B02919E00D97B48 /* swiftui_sugar_and_flow */ = {
 			isa = PBXGroup;
 			children = (
-				C7C260582B02919E00D97B48 /* swiftui_sugar_and_flowApp.swift */,
-				C7C2605A2B02919E00D97B48 /* ContentView.swift */,
+				C7C260662B0291D500D97B48 /* system */,
+				C7C260692B02925A00D97B48 /* CodeBlock.swift */,
+				C7C260672B02925000D97B48 /* Lazy.swift */,
+				C7C2606B2B02926300D97B48 /* Remember.swift */,
+				C7C2606D2B02926D00D97B48 /* StateFlow.swift */,
 				C7C2605C2B02919F00D97B48 /* Assets.xcassets */,
 				C7C2605E2B02919F00D97B48 /* Preview Content */,
+				C7EE84C22B02BF160022C31D /* codeblock.playground */,
+				C7A2C2FE2B07F6150039CDBD /* lazy.playground */,
+				C7EE84C12B02BD500022C31D /* remember.playground */,
+				C7EE84C42B02C1BE0022C31D /* stateobject.playground */,
+				C7EE84C32B02BFC00022C31D /* stateflow.playground */,
 			);
 			path = swiftui_sugar_and_flow;
 			sourceTree = "<group>";
@@ -65,6 +86,15 @@
 				C7C2605F2B02919F00D97B48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7C260662B0291D500D97B48 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				C7C2605A2B02919E00D97B48 /* ContentView.swift */,
+				C7C260582B02919E00D97B48 /* swiftui_sugar_and_flowApp.swift */,
+			);
+			path = system;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C2606A2B02925A00D97B48 /* CodeBlock.swift in Sources */,
 				C7C2605B2B02919E00D97B48 /* ContentView.swift in Sources */,
+				C7C2606C2B02926300D97B48 /* Remember.swift in Sources */,
+				C7C260682B02925000D97B48 /* Lazy.swift in Sources */,
 				C7C260592B02919E00D97B48 /* swiftui_sugar_and_flowApp.swift in Sources */,
+				C7C2606E2B02926D00D97B48 /* StateFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
