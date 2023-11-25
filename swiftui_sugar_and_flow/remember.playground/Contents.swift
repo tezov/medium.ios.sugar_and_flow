@@ -27,11 +27,11 @@ struct SubViewRemember<Content: View>: View {
     @Remember var dummy = DummyClassWhichDoNotTriggerUpdate()
 
     let onClick: () -> Void
-    @ViewBuilder let content: Content
+    let content: Content
 
     init(
         onClick: @escaping () -> Void,
-        content: () -> Content
+        @ViewBuilder content: () -> Content
     ) {
         self.onClick = onClick
         self.content = content()

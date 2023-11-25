@@ -69,8 +69,6 @@
 				C7C260672B02925000D97B48 /* Lazy.swift */,
 				C7C2606B2B02926300D97B48 /* Remember.swift */,
 				C7C2606D2B02926D00D97B48 /* StateFlow.swift */,
-				C7C2605C2B02919F00D97B48 /* Assets.xcassets */,
-				C7C2605E2B02919F00D97B48 /* Preview Content */,
 				C7EE84C22B02BF160022C31D /* codeblock.playground */,
 				C7A2C2FE2B07F6150039CDBD /* lazy.playground */,
 				C7EE84C12B02BD500022C31D /* remember.playground */,
@@ -91,6 +89,8 @@
 		C7C260662B0291D500D97B48 /* system */ = {
 			isa = PBXGroup;
 			children = (
+				C7C2605E2B02919F00D97B48 /* Preview Content */,
+				C7C2605C2B02919F00D97B48 /* Assets.xcassets */,
 				C7C2605A2B02919E00D97B48 /* ContentView.swift */,
 				C7C260582B02919E00D97B48 /* swiftui_sugar_and_flowApp.swift */,
 			);
@@ -305,7 +305,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftui_sugar_and_flow/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4B2H5C22JQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -334,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftui_sugar_and_flow/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4B2H5C22JQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
